@@ -1,3 +1,13 @@
+/*
+Un estacionamiento de la zona céntrica trabaja de 7 a 21hs.y tiene capacidad para 10 cocheras; al final del día no queda ningún vehículo guardado. El dueño nos pide un programa que tenga un menú
+con cuatro opciones: “Ingreso de vehículo”, “Salida de vehículo”, “Listado” y “Fin”.
+La primera opción nos pide el número de patente y la hora de entrada del vehículo y lo registra como guardado (si no hay lugar en el estacionamiento se debe informar un mensaje por pantalla).
+La segunda opción nos pide el número de patente del vehículo que sale y nosotros debemos informar la hora en que ingresó y liberar esa cochera.
+En la tercera opción, debe mostrar por pantalla las patentes de los vehículos que están guardados y la hora en que entraron.
+En la cuarta opción, debe verificar que no quede ningún vehículo estacionado.
+
+*/
+
 #include <iostream>
 #define CAPACIDAD 10
 using namespace std;
